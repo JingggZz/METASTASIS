@@ -2,6 +2,10 @@ html{
   background-color:black;
 }
 
+nav{
+  padding:10px 3%;
+}
+
 header{
   font-size: 20px;
   color: white;
