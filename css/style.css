@@ -1,7 +1,26 @@
-html, body {
-  margin: 0;
-  padding: 0;
+html{
+  background-color:black;
 }
-canvas {
-  display: block;
+
+header{
+  font-size: 20px;
+  color: white;
+  text-align: center;
+
+}
+
+.responsive-video{
+  position: relative;
+  width: 79%; /* adjust this and the padding-top to change how big it is*/
+  height: 0;
+  padding-top: 44%; /* padding top is in reltation to the width of parent, it preserves aspect ratio*/
+  margin: 0 auto; /*this would center your video in the section container*/
+}
+
+.responsive-video iframe{
+  position: absolute;
+  top:0;
+  left:0;
+  height: 100%;
+  width: 100%;
 }
