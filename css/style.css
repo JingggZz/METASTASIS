@@ -6,6 +6,11 @@ nav{
   padding:10px 3%;
 }
 
+a{
+  color:white;
+}
+
+
 header{
   font-size: 20px;
   color: white;
@@ -17,7 +22,7 @@ header{
   position: relative;
   width: 79%; /* adjust this and the padding-top to change how big it is*/
   height: 0;
-  padding-top: 44%; /* padding top is in reltation to the width of parent, it preserves aspect ratio*/
+  padding-top: 43%; /* padding top is in reltation to the width of parent, it preserves aspect ratio*/
   margin: 0 auto; /*this would center your video in the section container*/
 }
 
